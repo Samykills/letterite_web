@@ -1,3 +1,7 @@
+# export out folder(build)
+out/
+.next/
+
 # Logs
 logs
 *.log
@@ -64,7 +68,3 @@ node_modules/
 
 # dotenv environment variables file
 .env
-
-# export out folder(build)
-out/
-.next/
