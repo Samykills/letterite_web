@@ -2,6 +2,7 @@ Letterite Nextjs Static Website
 
 ## Create builds
 
+`yarn build`
 `yarn export`
 
 ## deploy to firebase `letterite-prod` project

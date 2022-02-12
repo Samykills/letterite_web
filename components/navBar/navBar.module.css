@@ -1,0 +1,33 @@
+.navBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  max-width: 1440px;
+}
+
+.icon {
+  height: 27px;
+  width: 20px;
+}
+
+.navBarTitle {
+  font-family: "Oleo Script", cursive;
+  font-weight: 400;
+  font-size: 36;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: -0.30000001192092896px;
+  text-align: center;
+  margin-left: 5px;
+  color: #50c2c7;
+}
+
+@media screen and (max-width: 900px) {
+  .navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}

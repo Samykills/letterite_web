@@ -1,0 +1,114 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.titleContainer {
+  order: 1;
+  max-width: 446px;
+}
+@media screen and (max-width: 900px) {
+  .titleContainer {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.boldHeading1 {
+  font-family: "Heebo", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 88px;
+  letter-spacing: -0.5356736183166504px;
+  text-align: left;
+  color: #f0617a;
+}
+
+@media screen and (max-width: 900px) {
+  .boldHeading1 {
+    font-family: Heebo;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -0.42757803201675415px;
+    text-align: center;
+    color: #f0617a;
+  }
+}
+
+.boldHeading2 {
+  font-family: "Mulish", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: -0.5356736183166504px;
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  .boldHeading2 {
+    font-family: Mulish;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.42757803201675415px;
+    text-align: center;
+  }
+}
+
+.subHeading {
+  font-family: "Mulish", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  line-height: 30px;
+  letter-spacing: 1.4643263816833496px;
+  text-align: left;
+  color: #7d7987;
+}
+
+@media screen and (max-width: 900px) {
+  .subHeading {
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 1.0210886001586914px;
+    text-align: center;
+  }
+}
+
+.titlePicture {
+  order: 2;
+}
+@media screen and (max-width: 900px) {
+  .titlePicture {
+    order: 1;
+  }
+}
+
+.introImage {
+  height: 475.1107177734375px;
+  width: 859.5368041992188px;
+}
+@media screen and (max-width: 900px) {
+  .introImage {
+    height: 212.00074768066406px;
+    width: 383.53680419921875px;
+  }
+}
