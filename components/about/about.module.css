@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 238px;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+  }
+}
+
+.aboutTitle {
+  font-family: "Mulish", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: -0.5356736183166504px;
+  text-align: center;
+  color: #f0617a;
+}
+
+@media screen and (max-width: 900px) {
+  .aboutTitle {
+    font-family: "Mulish", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.5356736183166504px;
+    text-align: center;
+    color: #f0617a;
+  }
+}
+
+.subContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0faf9;
+  max-height: 210px;
+  margin-top: 23px;
+}
+
+@media screen and (max-width: 900px) {
+  .subContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0faf9;
+    max-height: 411px;
+    margin-top: 10px;
+  }
+}
+
+.subContainerText {
+  font-family: "Mulish", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 1.4643263816833496px;
+  text-align: center;
+  color: #7d7987;
+}
+
+@media screen and (max-width: 900px) {
+  .subContainerText {
+    font-family: "Mulish", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 1.4643263816833496px;
+    text-align: center;
+    color: #7d7987;
+  }
+}

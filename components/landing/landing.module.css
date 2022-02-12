@@ -75,6 +75,7 @@
   font-family: "Mulish", sans-serif;
   font-size: 24px;
   font-style: normal;
+  font-weight: 500;
   line-height: 30px;
   letter-spacing: 1.4643263816833496px;
   text-align: left;
@@ -90,6 +91,7 @@
     line-height: 23px;
     letter-spacing: 1.0210886001586914px;
     text-align: center;
+    color: #7d7987;
   }
 }
 

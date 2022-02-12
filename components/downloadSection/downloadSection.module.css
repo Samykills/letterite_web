@@ -1,0 +1,140 @@
+.container {
+  height: 669px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.downloadTextContainer {
+  order: 1;
+}
+
+@media screen and (max-width: 900px) {
+  .downloadTextContainer {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 37px;
+  }
+}
+
+.divider {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+
+.downloadTitle {
+  font-family: "Mulish", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  max-width: 245px;
+}
+
+@media screen and (max-width: 900px) {
+  .downloadTitle {
+    font-family: "Mulish", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+
+.downloadText {
+  color: #f0617a;
+}
+
+.downloadSubtitle {
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  max-width: 452px;
+  color: #7d7987;
+}
+
+@media screen and (max-width: 900px) {
+  .downloadSubtitle {
+    font-family: "Mulish", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7d7987;
+  }
+}
+
+.appImage {
+  height: 417.42474365234375px;
+  width: 361.6097106933594px;
+  left: 215px;
+  top: 1200px;
+  border-radius: 0px;
+}
+
+@media screen and (max-width: 900px) {
+  .appImage {
+    order: 2;
+    height: 282.11236572265625px;
+    width: 244.3903045654297px;
+  }
+}
+
+.storeImageContainerMobile {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .storeImageContainerMobile {
+    order: 3;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-top: 60px;
+    justify-content: space-around;
+  }
+}
+
+.storeImageContainerDesktop {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 148px;
+}
+
+@media screen and (max-width: 900px) {
+  .storeImageContainerDesktop {
+    display: none;
+  }
+}
+
+.storeImage {
+  height: 48.96503448486328px;
+  width: 169.56411361694336px;
+}
+
+@media screen and (max-width: 900px) {
+  .storeImage {
+    height: 48.96503448486328px;
+    width: 169.56411361694336px;
+  }
+}
