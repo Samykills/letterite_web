@@ -14,7 +14,7 @@ const Landing = () => {
       </div>
       <div className={styles.titlePicture}>
         <img
-          src={"/images/introImage.png"}
+          src={"/images/introImage.webp"}
           alt={"Intro Image"}
           className={styles.introImage}
         />

@@ -5,7 +5,7 @@ const FooterSection = () => {
       <div className={styles.detailsContainer}>
         <div className={styles.logoContainer}>
           <img
-            src={"/icons/letteriteHeartIconWhite.png"}
+            src={"/icons/letteriteHeartIconWhite.webp"}
             alt={"white letterite heart icon"}
             className={styles.letteriteHeartIcon}
           />

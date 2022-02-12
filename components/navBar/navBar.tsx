@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <div className={styles.navBar}>
       <img
-        src={"/icons/letteriteHeartIcon.png"}
+        src={"/icons/letteriteHeartIcon.webp"}
         alt={"letterite heart icon"}
         className={styles.icon}
       />
