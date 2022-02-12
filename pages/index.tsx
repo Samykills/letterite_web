@@ -1,5 +1,6 @@
 import About from "components/about/about";
 import DownloadSection from "components/downloadSection/downloadSection";
+import FooterSection from "components/footerSection/footerSection";
 import Landing from "components/landing/landing";
 import NavBar from "../components/navBar/navBar";
 import styles from "./index.module.css";
@@ -11,6 +12,7 @@ const LandingPage = () => {
         <Landing />
         <About />
         <DownloadSection />
+        <FooterSection />
       </div>
     </div>
   );

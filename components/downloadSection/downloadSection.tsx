@@ -2,7 +2,7 @@ import styles from "./downloadSection.module.css";
 
 const DownloadSection = () => {
   return (
-    <>
+    <div>
       <div className={styles.container}>
         <div className={styles.downloadTextContainer}>
           <p className={styles.downloadTitle}>
@@ -27,7 +27,7 @@ const DownloadSection = () => {
         <img src={"./images/googlePlay.png"} className={styles.storeImage} />
         <img src={"./images/appStore.png"} className={styles.storeImage} />
       </div>
-    </>
+    </div>
   );
 };
 
