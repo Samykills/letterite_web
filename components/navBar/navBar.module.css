@@ -4,6 +4,15 @@
   align-items: center;
   flex: 1;
   max-width: 1440px;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 
 .icon {
@@ -22,12 +31,4 @@
   text-align: center;
   margin-left: 5px;
   color: #50c2c7;
-}
-
-@media screen and (max-width: 900px) {
-  .navBar {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
 }

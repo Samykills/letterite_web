@@ -3,8 +3,21 @@ import Document, { Html, Head, Main, NextScript } from "next/document";
 class MyDocument extends Document {
   render() {
     return (
-      <Html>
+      <Html lang={"en-IN"}>
         <Head>
+          <meta
+            name="description"
+            content="Send and Receive real letters from your friends and family from anywhere"
+          />
+          <meta
+            name="keywords"
+            content="Letterite, letters, letter app, digital letters"
+          />
+          <meta name="author" content="Ullas Gupta" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link

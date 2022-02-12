@@ -17,15 +17,32 @@ const DownloadSection = () => {
             <img
               src={"./images/googlePlay.png"}
               className={styles.storeImage}
+              alt={"googlePlayStore"}
             />
-            <img src={"./images/appStore.png"} className={styles.storeImage} />
+            <img
+              src={"./images/appStore.png"}
+              className={styles.storeImage}
+              alt={"appleAppStore"}
+            />
           </div>
         </div>
-        <img src={"./images/appImage.png"} className={styles.appImage} />
+        <img
+          src={"./images/appImage.png"}
+          className={styles.appImage}
+          alt={"AppImage"}
+        />
       </div>
       <div className={styles.storeImageContainerMobile}>
-        <img src={"./images/googlePlay.png"} className={styles.storeImage} />
-        <img src={"./images/appStore.png"} className={styles.storeImage} />
+        <img
+          src={"./images/googlePlay.png"}
+          className={styles.storeImage}
+          alt={"googlePlayStore"}
+        />
+        <img
+          src={"./images/appStore.png"}
+          className={styles.storeImage}
+          alt={"appleAppStore"}
+        />
       </div>
     </div>
   );

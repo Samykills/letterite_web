@@ -6,7 +6,7 @@ const FooterSection = () => {
         <div className={styles.logoContainer}>
           <img
             src={"/icons/letteriteHeartIconWhite.png"}
-            alt={"letterite heart icon"}
+            alt={"white letterite heart icon"}
             className={styles.letteriteHeartIcon}
           />
           <span className={styles.logoTitle}>Letterite</span>
@@ -24,7 +24,7 @@ const FooterSection = () => {
       <div className={styles.contactContainer}>
         <p className={styles.contactEmailText}>
           <span className={styles.contactText}>Contact</span>{" "}
-          hello@letterite.com
+          support@letterite.com
         </p>
       </div>
     </div>
