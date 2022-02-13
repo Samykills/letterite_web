@@ -1,5 +1,10 @@
 import styles from "./downloadSection.module.css";
 
+const PLAY_STORE_LINK =
+  "https://play.google.com/store/apps/details?id=com.letterrite&hl=en&gl=US";
+const APP_STORE_LINK =
+  "https://play.google.com/store/apps/details?id=com.letterrite&hl=en&gl=US";
+
 const DownloadSection = () => {
   return (
     <div>
@@ -14,16 +19,20 @@ const DownloadSection = () => {
             loved ones in a fun way
           </p>
           <div className={styles.storeImageContainerDesktop}>
-            <img
-              src={"./images/googlePlay.webp"}
-              className={styles.storeImage}
-              alt={"googlePlayStore"}
-            />
-            <img
-              src={"./images/appStore.webp"}
-              className={styles.storeImage}
-              alt={"appleAppStore"}
-            />
+            <a href={PLAY_STORE_LINK} target={"_blank"}>
+              <img
+                src={"./images/googlePlay.webp"}
+                className={styles.storeImage}
+                alt={"googlePlayStore"}
+              />
+            </a>
+            <a href={APP_STORE_LINK} target={"_blank"}>
+              <img
+                src={"./images/appStore.webp"}
+                className={styles.storeImage}
+                alt={"appleAppStore"}
+              />
+            </a>
           </div>
         </div>
         <img
@@ -33,16 +42,20 @@ const DownloadSection = () => {
         />
       </div>
       <div className={styles.storeImageContainerMobile}>
-        <img
-          src={"./images/googlePlay.webp"}
-          className={styles.storeImage}
-          alt={"googlePlayStore"}
-        />
-        <img
-          src={"./images/appStore.webp"}
-          className={styles.storeImage}
-          alt={"appleAppStore"}
-        />
+        <a href={PLAY_STORE_LINK} target={"_blank"}>
+          <img
+            src={"./images/googlePlay.webp"}
+            className={styles.storeImage}
+            alt={"googlePlayStore"}
+          />
+        </a>
+        <a href={APP_STORE_LINK} target={"_blank"}>
+          <img
+            src={"./images/appStore.webp"}
+            className={styles.storeImage}
+            alt={"appleAppStore"}
+          />
+        </a>
       </div>
     </div>
   );
