@@ -1,3 +1,4 @@
+import StoreIcons from "components/storeIcons/storeIcons";
 import styles from "./landing.module.css";
 const Landing = () => {
   return (
@@ -7,10 +8,11 @@ const Landing = () => {
           <span className={styles.boldHeading1}>Letter</span> writing made
           easier.
         </p>
-        <span className={styles.subHeading}>
+        <p className={styles.subHeading}>
           Send and Receive real letters from your friends and family from
           anywhere
-        </span>
+        </p>
+        <StoreIcons customContainerStyles={styles.storeImageContainer} />
       </div>
       <div className={styles.titlePicture}>
         <img

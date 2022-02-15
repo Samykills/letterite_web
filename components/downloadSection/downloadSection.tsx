@@ -1,9 +1,5 @@
+import StoreIcons from "components/storeIcons/storeIcons";
 import styles from "./downloadSection.module.css";
-
-const PLAY_STORE_LINK =
-  "https://play.google.com/store/apps/details?id=com.letterrite&hl=en&gl=US";
-const APP_STORE_LINK =
-  "https://play.google.com/store/apps/details?id=com.letterrite&hl=en&gl=US";
 
 const DownloadSection = () => {
   return (
@@ -18,22 +14,9 @@ const DownloadSection = () => {
             Our Letter posting app allow you to exchange real letters with your
             loved ones in a fun way
           </p>
-          <div className={styles.storeImageContainerDesktop}>
-            <a href={PLAY_STORE_LINK} target={"_blank"}>
-              <img
-                src={"./images/googlePlay.webp"}
-                className={styles.storeImage}
-                alt={"googlePlayStore"}
-              />
-            </a>
-            <a href={APP_STORE_LINK} target={"_blank"}>
-              <img
-                src={"./images/appStore.webp"}
-                className={styles.storeImage}
-                alt={"appleAppStore"}
-              />
-            </a>
-          </div>
+          <StoreIcons
+            customContainerStyles={styles.storeImageContainerDesktop}
+          />
         </div>
         <img
           src={"./images/appImage.webp"}
@@ -41,22 +24,7 @@ const DownloadSection = () => {
           alt={"AppImage"}
         />
       </div>
-      <div className={styles.storeImageContainerMobile}>
-        <a href={PLAY_STORE_LINK} target={"_blank"}>
-          <img
-            src={"./images/googlePlay.webp"}
-            className={styles.storeImage}
-            alt={"googlePlayStore"}
-          />
-        </a>
-        <a href={APP_STORE_LINK} target={"_blank"}>
-          <img
-            src={"./images/appStore.webp"}
-            className={styles.storeImage}
-            alt={"appleAppStore"}
-          />
-        </a>
-      </div>
+      <StoreIcons customContainerStyles={styles.storeImageContainerMobile} />
     </div>
   );
 };

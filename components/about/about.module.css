@@ -40,9 +40,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f0faf9;
   max-height: 210px;
   margin-top: 23px;
+}
+
+@media screen and (min-width: 900px) {
+  .subContainer {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -50,7 +56,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f0faf9;
     max-height: 411px;
     margin-top: 10px;
   }

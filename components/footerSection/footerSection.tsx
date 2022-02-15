@@ -11,12 +11,6 @@ const FooterSection = () => {
           />
           <span className={styles.logoTitle}>Letterite</span>
         </div>
-        <div className={styles.detailsTextContainer}>
-          <span className={styles.detailsText}>
-            Letterite lets you send and receive real letters from your friends
-            and family from anywhere
-          </span>
-        </div>
         <p className={styles.copyrightTextContainer}>
           ©Letterite 2022. All rights reserved
         </p>

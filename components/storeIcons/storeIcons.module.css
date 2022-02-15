@@ -1,0 +1,11 @@
+.storeImage {
+  height: 48.96503448486328px;
+  width: 169.56411361694336px;
+}
+
+@media screen and (max-width: 900px) {
+  .storeImage {
+    height: 48.96503448486328px;
+    width: 169.56411361694336px;
+  }
+}

@@ -1,0 +1,93 @@
+.container {
+  margin-top: 182px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin-top: 115px;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+  }
+}
+
+.title {
+  font-family: "Mulish", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: -0.5356736183166504px;
+  text-align: center;
+  color: #f0617a;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.5356736183166504px;
+    text-align: center;
+  }
+}
+
+.subContainer {
+  margin-top: 36px;
+  background-color: #f0faf9;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+  .subContainer {
+    margin-top: 67px;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+.createIcon {
+  height: 117.302490234375px;
+  width: 133.56919860839844px;
+}
+
+@media screen and (max-width: 768px) {
+  .createIcon {
+    height: 72.45228576660156px;
+    width: 80.88783264160156px;
+  }
+}
+
+.locationIcon {
+  height: 128.3159637451172px;
+  width: 90.69615173339844px;
+}
+
+@media screen and (max-width: 768px) {
+  .locationIcon {
+    height: 81.2526626586914px;
+    width: 58.96537780761719px;
+  }
+}
+
+.sendIcon {
+  height: 122.76134690721598px;
+  width: 120.46022245973663px;
+}
+
+@media screen and (max-width: 768px) {
+  .sendIcon {
+    height: 59.9743166192006px;
+    width: 63.73555477854724px;
+  }
+}

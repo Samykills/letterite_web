@@ -49,28 +49,6 @@
   align-items: flex-end;
 }
 
-.detailsText {
-  font-family: "Mulish", sans-serif;
-  font-size: 18px;
-  font-weight: 300;
-  text-align: left;
-  color: white;
-}
-
-@media screen and (max-width: 900px) {
-  .detailsText {
-    font-family: "Mulish", sans-serif;
-    font-size: 12px;
-    font-weight: 300;
-    text-align: left;
-    color: white;
-  }
-}
-
-.detailsTextContainer {
-  max-width: 391px;
-}
-
 .copyrightTextContainer {
   margin-top: 59px;
   font-family: "Mulish", sans-serif;
