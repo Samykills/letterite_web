@@ -11,7 +11,7 @@ const DownloadSection = () => {
             <span className={styles.divider}>mobile</span> app
           </p>
           <p className={styles.downloadSubtitle}>
-            Our Letter posting app allow you to exchange real letters with your
+            Our Letter posting app allows you to exchange real letters with your
             loved ones in a fun way
           </p>
           <StoreIcons

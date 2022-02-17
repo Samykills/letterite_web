@@ -9,12 +9,12 @@ const HowItWorksData: Array<HowItWorksTypes> = [
   {
     title: "2. Choose",
     imageSrc: "/icons/location.webp",
-    description: "Choose the recipient address",
+    description: "Choose the recipient's address",
   },
   {
     title: "3. Send",
     imageSrc: "/icons/send.webp",
-    description: "Sit and relax as your letter delievered by us",
+    description: "Sit back and relax as your letter is delievered by us",
   },
 ];
 
