@@ -1,4 +1,5 @@
 import styles from "./footerSection.module.css";
+import Link from "next/link";
 const FooterSection = () => {
   return (
     <div className={styles.container}>
@@ -11,15 +12,23 @@ const FooterSection = () => {
           />
           <span className={styles.logoTitle}>Letterite</span>
         </div>
-        <p className={styles.copyrightTextContainer}>
-          ©Letterite 2022. All rights reserved
-        </p>
+        <div className={styles.linksContainer}>
+          <Link href="/termsAndConditions">
+            <a className={styles.linkText}>Terms & Condition</a>
+          </Link>
+          <Link href="/privacyPolicy">
+            <a className={styles.linkText}>Privacy Policy</a>
+          </Link>
+          <span className={styles.linkText}>
+            <span className={styles.contactText}>Contact</span>{" "}
+            support@letterite.com
+          </span>
+        </div>
       </div>
       <div className={styles.contactContainer}>
-        <p className={styles.contactEmailText}>
-          <span className={styles.contactText}>Contact</span>{" "}
-          support@letterite.com
-        </p>
+        <span className={styles.linkText}>
+          ©Letterite 2022. All rights reserved
+        </span>
       </div>
     </div>
   );

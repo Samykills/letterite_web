@@ -47,26 +47,7 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: flex-end;
-}
-
-.copyrightTextContainer {
-  margin-top: 59px;
-  font-family: "Mulish", sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 28px;
-  text-align: left;
-  color: white;
-}
-
-@media screen and (max-width: 900px) {
-  .copyrightTextContainer {
-    font-family: "Mulish", sans-serif;
-    font-size: 12px;
-    font-weight: 300;
-    text-align: left;
-    color: white;
-  }
+  padding: 5px;
 }
 
 .contactText {
@@ -88,20 +69,31 @@
   }
 }
 
-.contactEmailText {
+.linksContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 59px;
+  padding: 5px;
+  align-items: flex-end;
+}
+
+.linkText {
   font-family: "Mulish", sans-serif;
   font-size: 18px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 600;
   text-align: center;
   color: white;
 }
+
 @media screen and (max-width: 900px) {
-  .contactEmailText {
-    font-family: Mulish;
+  .linkText {
+    font-family: "Mulish", sans-serif;
     font-size: 12px;
-    font-weight: 300;
-    line-height: 28px;
-    color: white;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
   }
 }
