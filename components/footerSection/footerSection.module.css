@@ -50,25 +50,6 @@
   padding: 5px;
 }
 
-.contactText {
-  font-family: "Mulish", sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  text-align: center;
-  color: white;
-}
-
-@media screen and (max-width: 900px) {
-  .contactText {
-    font-family: "Mulish", sans-serif;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 28px;
-    color: white;
-  }
-}
-
 .linksContainer {
   flex: 1;
   display: flex;
@@ -81,7 +62,7 @@
 
 .linkText {
   font-family: "Mulish", sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 600;
   text-align: center;
@@ -91,7 +72,7 @@
 @media screen and (max-width: 900px) {
   .linkText {
     font-family: "Mulish", sans-serif;
-    font-size: 12px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 600;
     text-align: center;

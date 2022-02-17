@@ -19,10 +19,7 @@ const FooterSection = () => {
           <Link href="/privacyPolicy">
             <a className={styles.linkText}>Privacy Policy</a>
           </Link>
-          <span className={styles.linkText}>
-            <span className={styles.contactText}>Contact</span>{" "}
-            support@letterite.com
-          </span>
+          <span className={styles.linkText}>Contact support@letterite.com</span>
         </div>
       </div>
       <div className={styles.contactContainer}>
